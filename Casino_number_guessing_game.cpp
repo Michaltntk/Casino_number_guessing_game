@@ -46,7 +46,7 @@ int main()
         } 
     }
     while (player_answer=="Yes" || player_answer=="Y");
-    getchar();
+    system("pause");
 }
 
 string answering()
@@ -65,7 +65,7 @@ string answering()
                     }
                     else
                     {
-                    cout << "U could have hit it big";
+                    cout << "U could have hit it big\n";
                     break;
                     }
                 }
